@@ -1,12 +1,12 @@
 
 ## Deployment Instructions:
-Log into the instructor's Jenkins server
-	Login using provided credentials
+1. Log into the instructor's Jenkins server
+	a. Login using provided credentials
 
-Create and run a Jenkins build for the application (Review Jenkins setup lesson video)
-	Select new item
-	Name your item (Follow naming convention)
-	Select pipeline and click ok
+2. Create and run a Jenkins build for the application (Review Jenkins setup lesson video)
+	a.Select new item
+	b.Name your item (Follow naming convention)
+	c.Select pipeline and click ok
 	Next page
 	Put in description 
 	Pipeline dropdown select "pipeline script from SCM"

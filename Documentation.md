@@ -1,9 +1,8 @@
 
 ## Deployment Instructions:
 1. Log into the instructor's Jenkins server
-	a. Login using provided credentials
-
-2. Create and run a Jenkins build for the application (Review Jenkins setup lesson video)
+	a. Login using provided credentials 
+3. Create and run a Jenkins build for the application (Review Jenkins setup lesson video)
 	a.Select new item
 	b.Name your item (Follow naming convention)
 	c.Select pipeline and click ok

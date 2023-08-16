@@ -2,7 +2,7 @@
 ## Deployment Instructions:
 1. Log into the instructor's Jenkins server
 	a. Login using provided credentials 
-3. Create and run a Jenkins build for the application (Review Jenkins setup lesson video)
+2. Create and run a Jenkins build for the application (Review Jenkins setup lesson video)
 	a.Select new item
 	b.Name your item (Follow naming convention)
 	c.Select pipeline and click ok
@@ -31,14 +31,14 @@
 			click Save
 	Click build now
 		
-Make sure you include your name on your build's name (first name_letter of last name)
+3. Make sure you include your name on your build's name (first name_letter of last name)
 
-Observe the pipeline stages via the console output and document what occurred
+4. Observe the pipeline stages via the console output and document what occurred
 	Stage Log Used credentials, Deploy 1, to access remote Git Repository Cloned the repository and checked the access
-	Build - Run shell script to check Python installed Checked requirements to see if PIP is installed and the correct version Found version 22.0.2 and uninstalled it. Downloaded and   installed 23.2.1 py
+	Build - Run shell script to check Python installed Checked requirements to see if PIP is installed and the correct version Found version 22.0.2 and uninstalled it. 		Downloaded and installed 23.2.1 py
 	Test - Run Shell script to test Python using py.test and return the results, pass the test
 
-If the pipeline is successful, download the application files from your repository and proceed to the next step:
+5. If the pipeline is successful, download the application files from your repository and proceed to the next step:
 
 Manually deploy AWS Elastic Beanstalk
 
